@@ -15,7 +15,7 @@ const run = async () => {
     const removeFlag = getInput("remove");
     const pullZoneId = getInput("pullZoneId");
     const pullZoneAccessKey = getInput("pullZoneAccessKey");
-    const purgeFlag = getInput("purge");
+    const purgeFlag = getInput("purgePullZone");
 
     if (removeFlag === "true") {
       info(`Deleting files from storage ${storageZoneName}`);

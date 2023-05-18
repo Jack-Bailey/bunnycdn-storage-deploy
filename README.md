@@ -24,7 +24,7 @@ Necessary for purging pull zone.
 
 Necessary for purging pull zone.
 
-### `purge`
+### `purgePullZone`
 
 It will purge the pull zone if true. pullZoneId and pullZoneAccessKey should be provided.
 
@@ -44,5 +44,5 @@ It will remove the files from storage before uploading if "true" provided.
     pullZoneId: "${{ secrets.ZONE_ID }}"
     pullZoneAccessKey: "${{ secrets.PULL_ZONE_KEY }}"
     remove: "true"
-    purge: "true"
+    purgePullZone: "true"
 ```

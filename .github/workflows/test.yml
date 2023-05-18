@@ -20,4 +20,4 @@ jobs:
           pullZoneId: "${{ secrets.ZONE_ID_TEST }}"
           pullZoneAccessKey: "${{ secrets.PULL_ZONE_KEY_TEST }}"
           remove: "true"
-          purge: "true"
+          purgePullZone: "true"

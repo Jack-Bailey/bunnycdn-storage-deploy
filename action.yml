@@ -14,7 +14,7 @@ inputs:
     description: "Is required for purging."
   pullZoneAccessKey:
     description: "Is required for purging."
-  purge:
+  purgePullZone:
     description: "It will purge the pull zone if true. pullZoneId and pullZoneAccessKey should be provided."
     default: "false"
   remove:
